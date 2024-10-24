@@ -1,4 +1,4 @@
-// swift-tools-version:5.7
+// swift-tools-version:5.8
 import PackageDescription
 
 let package = Package(
@@ -15,8 +15,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "StandardComponents",
-            url: "https://github.com/EYDS-CA/standard-components-ios/releases/download/0.1.5/StandardComponents.xcframework.zip",
-            checksum: "aa0c257abd9070de802c0f5df6b390fa0bdbfdaacd3984c8f25419c3b3e9fff3"
+            url: "https://github.com/EYDS-CA/standard-components-ios/releases/download/0.1.6/StandardComponents.xcframework.zip",
+            checksum: "dcc043a3812e046150a81b10b4a58a12e83d368d348a1f65fbcdbe4a7d662d3e"
         )
     ]
 )
