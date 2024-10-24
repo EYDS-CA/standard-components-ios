@@ -9,14 +9,15 @@ let package = Package(
     products: [
         .library(
             name: "StandardComponents",
+            type: .dynamic,
             targets: ["StandardComponents"]
         )
     ],
     targets: [
         .binaryTarget(
             name: "StandardComponents",
-            url: "https://github.com/EYDS-CA/standard-components-ios/releases/download/0.1.6/StandardComponents.xcframework.zip",
-            checksum: "dcc043a3812e046150a81b10b4a58a12e83d368d348a1f65fbcdbe4a7d662d3e"
+            url: "https://github.com/EYDS-CA/standard-components-ios/releases/download/0.1.7/StandardComponents.xcframework.zip",
+            checksum: "8aac9e2f508545ef206ccce00082be173574086d5b0dcf9fd3d79231610db5fd"
         )
     ]
 )
