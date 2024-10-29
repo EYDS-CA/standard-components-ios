@@ -15,8 +15,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "StandardComponents",
-            url: "https://github.com/EYDS-CA/standard-components-ios/releases/download/0.3.5/StandardComponents.xcframework.zip",
-            checksum: "2cc1e81400990d8ca99d541c6b5fbfa37773ee64742af0c0533408432375f11a"
+            url: "https://github.com/EYDS-CA/standard-components-ios/releases/download/0.3.6/StandardComponents.xcframework.zip",
+            checksum: "b03550b6c41d7004d89721e95b2a2c719f5457f2e7bf22254edd5d268a6e87a9"
         )
     ]
 )
