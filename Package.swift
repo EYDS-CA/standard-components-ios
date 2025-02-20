@@ -12,11 +12,14 @@ let package = Package(
             targets: ["StandardComponents"]
         )
     ],
+    dependencies: [
+        .package(url: "https://github.com/openid/AppAuth-iOS.git", from: "1.6.2")
+    ],
     targets: [
         .binaryTarget(
             name: "StandardComponents",
-            url: "https://github.com/EYDS-CA/standard-components-ios/releases/download/0.4.6/StandardComponents.xcframework.zip",
-            checksum: "01bcb332b582d05d1e7d5c8ed2953d72d8eb1d5cf3e4d945103a4503b820961a"
+            url: "https://github.com/EYDS-CA/standard-components-ios/releases/download/0.4.7/StandardComponents.xcframework.zip",
+            checksum: "d6aef05663107dffd88c9122d6edea9af977786f4254faa8e972822e7bd25649"
         )
     ]
 )
